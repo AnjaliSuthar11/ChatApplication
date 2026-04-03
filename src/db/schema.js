@@ -1,4 +1,4 @@
- import { pgTable , serial, text, integer, timestamp , pgEnum, jsonb, pgTable } from "drizzle-orm/pg-core";
+ import {  serial, text, integer, timestamp , pgEnum, jsonb, pgTable } from "drizzle-orm/pg-core";
 
 
  export const matchStatusEnum = pgEnum('match_status', [ 'scheduled', 'live', 'finished']);
